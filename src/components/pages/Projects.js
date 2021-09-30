@@ -42,10 +42,10 @@ export default function Projects() {
           <Col>
             <Card name={project.name} description={project.description} key={project.id}>
               <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/coming-soon.jpg"} />
-              {/* <Card.Body> */}
-              <Card.Title>{project.name}</Card.Title>
-              <Card.Text>{project.description}</Card.Text>
-              {/* </Card.Body> */}
+              <Card.Body>
+                <Card.Title>{project.name}</Card.Title>
+                <Card.Text>{project.description}</Card.Text>
+              </Card.Body>
             </Card>
           </Col>
         ))}
