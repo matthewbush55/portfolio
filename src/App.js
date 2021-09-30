@@ -1,12 +1,6 @@
-import "./App.css";
-import { NavBar } from "./components/NavBar/NavBar";
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
