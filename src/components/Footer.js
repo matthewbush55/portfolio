@@ -13,12 +13,12 @@ export default function Footer() {
           </li>
           <li>
             <a href="https://www.linkedin.com/in/matthewrbush/" target="_blank" rel="noreferrer">
-              <img id="logo-resize" src="./assets" alt="LinkedIn Logo" />
+              <img src={process.env.PUBLIC_URL + "/images/linkedin.svg"} alt="LinkedIn Logo" />
             </a>
           </li>
           <li>
             <a href="https://stackexchange.com/users/22014112/matt-bush" target="_blank" rel="noreferrer">
-              <img src="images/512px-Stack_Overflow_icon.png" alt="Stack Overflow Logo" />
+              <img src={process.env.PUBLIC_URL + "/images/so.png"} alt="Stack Overflow Logo" />
             </a>
           </li>
           <li>
