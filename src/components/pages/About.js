@@ -1,15 +1,21 @@
 import React from "react";
+import { Col, Image } from "react-bootstrap";
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className="container p-5">
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris, ut interdum nunc
-        egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non lectus tincidunt
-        fermentum. Suspendisse aliquet orci porta quam semper imperdiet. Praesent euismod mi justo, faucibus scelerisque
-        risus cursus in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Detail-oriented full-stack web developer leveraging I.T./Cybersecurity background to build more engaging and
+        secure applications on the web. Currently earning a certificate in full stack development from the University of
+        Denver, gaining skills in MongoDB, Express.js, React.js, and Node.js (MERN stack) as well as architecture &
+        design. Known as an analytical problem solver with a never-ending desire to constantly improve skills. With each
+        project, my aim is to fully understand my customer’s desired outcome and exceed their expectations. I’m excited
+        to leverage my skills as part of a fast-paced, quality-driven team to create better experiences on the web.
       </p>
+      <Col xs={6} md={4}>
+        <Image src={process.env.PUBLIC_URL + "/images/me.jpg"} roundedCircle />
+      </Col>
     </div>
   );
 }
