@@ -1,8 +1,12 @@
 import React from "react";
+import { Navbar } from "react-bootstrap";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs mb-3">
+      <Navbar.Brand href="https://github.com/matthewbush55" target="_blank">
+        Matt Bush
+      </Navbar.Brand>
       <li className="nav-item">
         <a
           href="#about"

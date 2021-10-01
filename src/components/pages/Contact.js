@@ -4,6 +4,7 @@ import { Form } from "react-bootstrap";
 export default function Contact() {
   return (
     <div className="container p-5">
+      <h1>Contact</h1>
       <Form>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Control type="text" placeholder="Your name" />
