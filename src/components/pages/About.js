@@ -13,8 +13,8 @@ export default function About() {
         project, my aim is to fully understand my customer’s desired outcome and exceed their expectations. I’m excited
         to leverage my skills as part of a fast-paced, quality-driven team to create better experiences on the web.
       </p>
-      <Col xs={6} md={4}>
-        <Image src={process.env.PUBLIC_URL + "/images/me.jpg"} roundedCircle />
+      <Col xs={6} md={4} className="m-auto">
+        <Image style={{ width: "90%" }} src={process.env.PUBLIC_URL + "/images/me.jpg"} roundedCircle />
       </Col>
     </div>
   );
